@@ -1,4 +1,4 @@
-# These commands are used in the lecture "Deploying Images in Kubernetes from private Docker repository"
+# These commands are used in the lecture "Deploying Images in Kubernetes from private Docker repository
 
 Print full docker login command for aws ecr
 aws ecr get-login-password
