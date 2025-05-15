@@ -5,19 +5,17 @@
 aws ecr get-login-password
 ```
 
-Login to docker private repo
+## Login to docker private repo
 ```
 docker login -u username -p password
 ```
 
-Base64 encode config file
+## Base64 encode config file
 ```
 cat .docker/config.json | base64
 ```
 
-Create docker login secret from config.json file
-```
-
+## Create docker login secret from config.json file
 ```
 kubectl create secret generic my-registry-key \
 --from-file=.dockerconfigjson=.docker/config.json \
