@@ -24,22 +24,33 @@ kubectl create secret generic my-registry-key \
 ```
 
 kubectl create secret generic my-registry-key --from-file=.dockerconfigjson=.docker/config.json --type=kubernetes.io/dockerconfigjson
+```
 
 Access generated secret
+```
 kubectl get secret
+```
 
 Create docker login secret with login credentials
+```
 
 kubectl create secret docker-registry my-registry-key \
 --docker-server=https://private-repo \
 --docker-username=user \
---docker-password=pwd 
+--docker-password=pwd
+```
 
-
+```
 kubectl create secret docker-registry my-registry-key --docker-server=https://private-repo --docker-username=user --docker-password=pwd
+```
 
 Access minikube console
+```
 minikube ssh
+```
 
 Copy config.json file from Minikube to my host
+
+```
 minikube cp minikube:/home/docker/.docker/config.json /users/USERNAME/.docker/config.json
+```
