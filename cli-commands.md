@@ -1,7 +1,9 @@
 # These commands are used in the lecture "Deploying Images in Kubernetes from private Docker repository
 
 Print full docker login command for aws ecr
+```
 aws ecr get-login-password
+```
 
 Login to docker private repo
 docker login -u username -p password
