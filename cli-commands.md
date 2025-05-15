@@ -53,7 +53,7 @@ minikube ssh
 
 ## Copy config.json file from Minikube to my host
 
-```
 
-minikube cp minikube:/home/docker/.docker/config.json /users/USERNAME/.docker/config.json
+
+```minikube cp minikube:/home/docker/.docker/config.json /users/USERNAME/.docker/config.json
 ```
