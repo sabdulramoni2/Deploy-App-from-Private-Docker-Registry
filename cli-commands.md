@@ -18,11 +18,13 @@ cat .docker/config.json | base64
 Create docker login secret from config.json file
 ```
 
+```
 kubectl create secret generic my-registry-key \
 --from-file=.dockerconfigjson=.docker/config.json \
 --type=kubernetes.io/dockerconfigjson
 ```
 
+```
 kubectl create secret generic my-registry-key --from-file=.dockerconfigjson=.docker/config.json --type=kubernetes.io/dockerconfigjson
 ```
 
