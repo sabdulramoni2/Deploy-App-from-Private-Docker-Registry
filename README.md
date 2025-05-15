@@ -28,3 +28,10 @@ This project demonstrates deploying an application from a private docker reposit
 - Configured Deployment for demo app
 
   ![image](https://github.com/user-attachments/assets/5d162500-5432-4080-bf8d-1f3ddb3bd354)
+
+  ![image](https://github.com/user-attachments/assets/7a793294-58b6-4519-9797-95d187dd7747)
+
+
+  ![image](https://github.com/user-attachments/assets/17d2d07d-4658-44e7-936b-d8d2b06ff60c)
+
+
