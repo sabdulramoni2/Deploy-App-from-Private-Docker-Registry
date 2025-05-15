@@ -43,12 +43,10 @@ kubectl create secret docker-registry my-registry-key \
 kubectl create secret docker-registry my-registry-key --docker-server=https://private-repo --docker-username=user --docker-password=pwd
 ```
 
-Access minikube console
+## Access minikube console
 ```
 minikube ssh
 ```
-
-## Copy config.json file from Minikube to my host
 
 
 ### **Copy config.json file from Minikube to my host**
