@@ -23,6 +23,7 @@ This project demonstrates deploying an application from a private docker reposit
        ```
             Run “aws ecr get login-password”
        ```
+   
 - Created Secret component
 - Configured Deployment for demo app
    
