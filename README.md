@@ -27,6 +27,7 @@ This project demonstrates deploying an application from a private docker reposit
 - Login into minikube
   ```
       ssh minikube
+      docker login –username -p [paste password above] [url of the aws ecr repo]
   ```
 - Configured Deployment for demo app
    
