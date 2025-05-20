@@ -30,14 +30,16 @@ This project demonstrates deploying an application from a private docker reposit
       docker login –username -p [paste password above] [url of the aws ecr repo]
       ls -la
   ```
+  
 - To see the cotent of the config.json file
   ```
      cat .docker/config.json
  ```
+
 - To cope the config.json file to the host
  ```
     minikube cp minikube:/home/docker/.docker/config.json /users/USERNAME/.docker/config.json
-    ```
+```
     
 
    
