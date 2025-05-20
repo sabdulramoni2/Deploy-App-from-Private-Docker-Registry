@@ -51,7 +51,7 @@ This project demonstrates deploying an application from a private docker reposit
 - Create docker login secret with login credentials (2 steps in one command)
   ```
      kubectl create secret docker-registry my-registry-key  --docker-server=https://private-repo --docker-username=user (AWS) --docker-password=pwd 
-```
+  ```
 
    
 ## **Features**
