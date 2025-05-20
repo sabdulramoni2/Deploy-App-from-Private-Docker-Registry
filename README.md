@@ -18,7 +18,7 @@ This project demonstrates deploying an application from a private docker reposit
 -  To see the contents of the login details.
   ```
        Run cat .docker/config.json
-```
+ ```
       
 - Created Secret component
 - Configured Deployment for demo app
