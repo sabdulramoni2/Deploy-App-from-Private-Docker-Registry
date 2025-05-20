@@ -24,7 +24,10 @@ This project demonstrates deploying an application from a private docker reposit
       Run “aws ecr get login-password”
    ```
    
-- Created Secret component
+- Login into minikube
+  ```
+      ssh minikube
+  ```
 - Configured Deployment for demo app
    
 ## **Features**
