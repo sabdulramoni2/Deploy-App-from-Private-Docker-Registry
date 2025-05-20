@@ -65,4 +65,4 @@ This project demonstrates deploying an application from a private docker reposit
   ![image](https://github.com/user-attachments/assets/17d2d07d-4658-44e7-936b-d8d2b06ff60c)
 
 
--
+
