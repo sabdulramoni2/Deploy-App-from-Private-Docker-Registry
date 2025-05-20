@@ -40,7 +40,7 @@ This project demonstrates deploying an application from a private docker reposit
 
      ```
         minikube cp minikube:/home/docker/.docker/config.json /users/USERNAME/.docker/config.json
-    ```
+    
     
 
    
