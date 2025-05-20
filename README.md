@@ -28,8 +28,12 @@ This project demonstrates deploying an application from a private docker reposit
   ```
       ssh minikube
       docker login –username -p [paste password above] [url of the aws ecr repo]
+      ls -la
   ```
-- Configured Deployment for demo app
+- To see the cotent of the config.json file
+  ```
+     cat .docker/config.json
+  ```
    
 ## **Features**
 - Logged in to AWS Container Repository | docker login and create docker config.json file
