@@ -34,10 +34,10 @@ This project demonstrates deploying an application from a private docker reposit
 - To see the cotent of the config.json file
   ```
      cat .docker/config.json
- ```
+             ```
 
 - To copy the config.json file to the host
-- To see the cotent of the config.json file
+
  ```
     minikube cp minikube:/home/docker/.docker/config.json /users/USERNAME/.docker/config.json
 ```   
