@@ -40,7 +40,15 @@ This project demonstrates deploying an application from a private docker reposit
 
  ```
     minikube cp minikube:/home/docker/.docker/config.json /users/USERNAME/.docker/config.json
-```   
+    cat .docker/config.json | base64
+```
+- Create the secret from the secret configuration file (dockerconfigjson)
+- Another way to create the secret is using the kubectl format
+  ```
+     kubectl create secret generic my-registry-key  --from-file=.dockerconfigjson=.docker/config.json  --type=kubernetes.io/dockerconfigjson
+  ```
+
+     
 
    
 ## **Features**
