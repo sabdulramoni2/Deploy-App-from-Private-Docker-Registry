@@ -16,10 +16,13 @@ This project demonstrates deploying an application from a private docker reposit
 - Login into the AWS ECR using the commands on the AWS ECR login commands.
 - Logged in to AWS Container Repository | docker login and create docker config.json file
 -  To see the contents of the login details.
-  ```
+    ```
        Run cat .docker/config.json
- ```
-      
+    ```
+-  To see the password. (we use this password to login into minikube)
+       ```
+            Run “aws ecr get login-password”
+       ```
 - Created Secret component
 - Configured Deployment for demo app
    
