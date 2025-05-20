@@ -9,7 +9,15 @@ This project demonstrates deploying an application from a private docker reposit
 - Setup a Private Docker Repository (e.g. AWS Elastic Container Registry)
 
 ## **Features**
+- Create secret component in Kubernetes that contains credentials for Docker registry.
+- Configure your Deployment / Pod to use the parameter called imagePullSecrets.
+- Firstly, set up your private docker repo on AWS (AWS ECR).
+- Set up your minikube cluster.
+- Login into the AWS ECR using the commands on the AWS ECR login commands.
 - Logged in to AWS Container Repository | docker login and create docker config.json file
+-  To see the contents of the login details.
+       ```Run cat .docker/config.json
+      ````
 - Created Secret component
 - Configured Deployment for demo app
    
