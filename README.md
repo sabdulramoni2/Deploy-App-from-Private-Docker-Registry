@@ -37,7 +37,6 @@ This project demonstrates deploying an application from a private docker reposit
  ```
 
 - To copy the config.json file to the host
-
  ```
     minikube cp minikube:/home/docker/.docker/config.json /users/USERNAME/.docker/config.json
 ```   
