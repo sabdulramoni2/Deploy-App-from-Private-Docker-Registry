@@ -20,7 +20,7 @@ This project demonstrates deploying an application from a private docker reposit
        Run cat .docker/config.json
     ```
 -  To see the password. (we use this password to login into minikube)
-       ```
+   ```
             Run “aws ecr get login-password”
        ```
    
