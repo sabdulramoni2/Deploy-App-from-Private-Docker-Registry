@@ -53,6 +53,13 @@ This project demonstrates deploying an application from a private docker reposit
      kubectl create secret docker-registry my-registry-key  --docker-server=https://private-repo --docker-username=user (AWS) --docker-password=pwd 
   ```
 
+- Configure the deployment for the application
+- Add “Image pully policy” to force docker pulling the image from the repo.
+- Add secret reference to the pod so that it can pull the image from the repo.
+- Add “imagePullSecrets” features to the pod.
+- Run k apply -f deployment file to run the deployment.
+
+
    
 ## **Features**
 - Logged in to AWS Container Repository | docker login and create docker config.json file
