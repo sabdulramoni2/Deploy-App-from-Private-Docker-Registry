@@ -61,7 +61,7 @@ This project demonstrates deploying an application from a private docker reposit
 
 
    
-## **Features**
+## **Diagrammatic Presentation**
 - Logged in to AWS Container Repository | docker login and create docker config.json file
   
   ![image](https://github.com/user-attachments/assets/f474cafe-9356-417a-972f-c8983c003daa)
